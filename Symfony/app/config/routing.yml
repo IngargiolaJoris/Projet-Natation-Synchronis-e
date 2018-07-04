@@ -1,0 +1,10 @@
+# app/config/routing.yml
+
+Projet2_platform:
+    resource: "@Projet2PlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform
+
+Projet2_platform:
+    resource: "@Projet2PlatformBundle/Resources/config/routing.yml"
+    prefix:   /index
+

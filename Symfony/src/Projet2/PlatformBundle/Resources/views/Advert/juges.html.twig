@@ -1,0 +1,49 @@
+{# src/Projet2/PlatformBundle/Resources/views/Advert/juges.html.twig #}
+
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+{% endblock %}
+{% block title %}
+  Connection Juges
+{% endblock %}
+
+{% block body %}
+
+    <h1>Connexion Juges</h1><br>
+    <form action="" id="form" method="POST">
+    Votre identifiant : <input type="text" id="juge" class="textinput" placeholder="Juge-5"><br><br>
+    Votre mot de passe : <input type="password" class="textinput"><br><br>
+    <input type ="submit" id="button" class="connexion" value ="Se connecter">
+    </form>
+
+    <script src="/../Projet_Natation_synchronisee/Symfony/web/assets/vendor/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+
+
+    $('#button').click(function()
+    {
+        var juge = document.getElementById('juge').value;
+        var check = juge.startsWith("Juge-");
+        var checkArbitre = juge.startsWith("Juge-arbitre-");
+        var path = '../juges/arbitre/';
+
+        if(checkArbitre)
+        {
+            $('#form').attr('action', path + juge);
+        }
+        else if (check)
+        {
+            $('#form').attr('action', juge);
+        }
+        else
+        {
+            alert("Erreur, l'identifiant doit être de type 'Juge-(votre numéro)'");
+        }
+    });
+
+    </script>
+
+{% endblock %}

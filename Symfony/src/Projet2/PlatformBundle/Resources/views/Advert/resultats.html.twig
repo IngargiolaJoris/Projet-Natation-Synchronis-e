@@ -1,0 +1,15 @@
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block title %}
+    Résultats
+{% endblock %}
+{% block body %}
+<h1>Résultats</h1><br>
+
+    <a href="../platform"><input type="button" class="btn btn-primary btn-lg" value="Retour"></a>
+{% endblock %}

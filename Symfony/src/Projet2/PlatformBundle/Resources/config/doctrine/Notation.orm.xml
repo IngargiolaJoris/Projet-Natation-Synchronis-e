@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Projet2\PlatformBundle\Entity\Notation" table="notation">
+    <indexes>
+      <index name="IDX_268BC95D2CFF594" columns="idparticipation"/>
+      <index name="IDX_268BC95E34EFBD7" columns="idjuge"/>
+    </indexes>
+    <id name="idnotation" type="integer" column="idnotation">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="notation_idnotation_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="note" type="float" column="note" precision="10" scale="0" nullable="false"/>
+    <many-to-one field="idparticipation" target-entity="Participation" fetch="LAZY">
+      <join-columns>
+        <join-column name="idparticipation" referenced-column-name="idparticipation"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="idjuge" target-entity="Juge" fetch="LAZY">
+      <join-columns>
+        <join-column name="idjuge" referenced-column-name="idjuge"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-many field="idrole" target-entity="Role" inversed-by="idnotation" fetch="LAZY">
+      <join-table name="penalite">
+        <join-columns>
+          <join-column name="idnotation" referenced-column-name="idnotation"/>
+        </join-columns>
+        <inverse-join-columns>
+          <join-column name="idrole" referenced-column-name="idrole"/>
+        </inverse-join-columns>
+      </join-table>
+    </many-to-many>
+  </entity>
+</doctrine-mapping>

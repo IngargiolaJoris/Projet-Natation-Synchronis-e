@@ -1,0 +1,24 @@
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block title %}
+    Notation
+{% endblock %}
+
+{% block body %}
+    <h1>Notation</h1>
+    <br>
+    <p>Votre note de {{ note }}/100 à été envoyée.</p>
+    {% if penalite is defined %}
+        Ainsi que votre pénalité de {{ penalite }}/2<br><br>
+    {% endif %}
+    <p>Votre commentaire : <br>
+    {{ commentaire }}
+    </p>
+
+    <a href="resultats" ><input type="button" class="btn btn-primary btn-lg" value="Résultats"></a>
+{% endblock %}

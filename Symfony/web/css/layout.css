@@ -1,0 +1,75 @@
+body 
+{
+    background-image: url("images/natation.jpeg");
+    no-repeat : center;
+    center : fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.jumbotron
+{
+        border-radius: 10px;
+        background-color: #A7C1E1;
+
+}
+.row
+{
+	background-color: #A7C1E1;
+        border-radius: 10px;
+}
+footer
+{
+        border-radius: 10px;
+	background-color: #A7C1E1;
+}
+.container
+{
+	text-align: center;
+	width: 800px;
+}
+img
+{
+        margin-left: 10px
+}
+.btn.btn-primary.btn-lg
+{
+        transition: all .2s ease-in-out;
+}
+.btn.btn-primary.btn-lg:hover
+{
+        transform: scale(1.1);
+}
+.connexion
+{
+        border-radius: 8px;
+        color : blue;
+}
+.textinput
+{
+        border-radius: 5px;
+}
+.icon
+{
+        transition: all .2s ease-in-out;
+        width : 100px;
+}
+.icon:hover
+{
+        transform: scale(1.1);
+}
+.tableau
+{
+    position: relative;
+    right: 500px;
+}
+.table
+{
+    border-collapse: collapse;
+}
+.timer
+{
+
+}
+

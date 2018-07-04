@@ -1,0 +1,20 @@
+{# src/Projet2/PlatformBundle/Resources/views/Advert/administration.html.twig #}
+
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+{% endblock %}
+{% block title %}
+  Administration
+{% endblock %}
+
+{% block body %}
+
+    <h1>Administration</h1>
+    
+    <a href=""><img class="icon" src="http://localhost/Projet_Natation_synchronisee/Symfony/web/css/images/icon1.png"></a>
+    <a href=""><img class="icon" src="http://localhost/Projet_Natation_synchronisee/Symfony/web/css/images/icon2.png"></a>
+
+{% endblock %}

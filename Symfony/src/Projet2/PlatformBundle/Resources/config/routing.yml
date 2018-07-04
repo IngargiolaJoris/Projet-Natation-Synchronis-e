@@ -1,0 +1,68 @@
+# src/Projet2/PlatformBundle/Resources/config/routing.yml
+
+Projet2_platform_home:
+    path:      /{page}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:index
+        page:        1
+    requirements:
+        page: \d*
+    
+Projet2_platform_view:
+    path:      /advert/{id}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:view
+    requirements:
+        id: \d+
+     
+Projet2_platform_administration:
+    path:    /administration
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:administration
+        
+Projet2_platform_competitions:
+    path:    /competitions
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:competition
+
+Projet2_platform_choixcompetition:
+    path:    /competitions/{id}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:choixcompetition
+
+Projet2_platform_juges:
+    path:    /juges/
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:juge
+        
+Projet2_platform_connection_juge:
+    path:    /juges/{id}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:connection_juge
+
+Projet2_platform_nageuse:
+    path:    /nageuse
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:nageuse
+
+Projet2_platform_connection_juge_arbitre:
+    path:    juges/arbitre/{id}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:connection_juge_arbitre
+
+Projet2_platform_notation:
+    path:    notation
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:notation
+
+Projet2_platform_resultats:
+    path:    resultats
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:resultats
+
+Projet2_platform_competitionarbitre:
+    path:    competition/arbitre/{id}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:competitionarbitre
+
+

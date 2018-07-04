@@ -1,0 +1,42 @@
+{# src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge.html.twig #}
+
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+{% endblock %}
+{% block title %}
+    Juges
+{% endblock %}
+
+{% block body %}
+
+    <h1>Bienvenue, {{juges.id}}</h1><br>
+
+    <a class="btn btn-primary btn-lg" href="../nageuse">Liste des nageuses</a>
+    <br><br>
+    <input type="submit" class="btn btn-primary btn-lg" onclick="javascript:montre('information1');" value="Mes compétitions">
+    <dd id="information1">
+        <br>
+        <tr>
+            <a href="../competitions/1">Compétition 1</a><br>
+            <a href="../competitions/2">Compétition 2</a><br>
+        </tr>
+    </dd>
+
+    <script language="JavaScript">
+
+    window.onload=montre();
+    function montre(id)
+    {
+        var d = document.getElementById(id);
+        for (var i = 1; i<=10; i++)
+        {
+            if (document.getElementById('information'+i)) {document.getElementById('information'+i).style.display='none';}
+        }
+        if (d) {d.style.display='block';}
+    }
+
+</script>
+{% endblock %}

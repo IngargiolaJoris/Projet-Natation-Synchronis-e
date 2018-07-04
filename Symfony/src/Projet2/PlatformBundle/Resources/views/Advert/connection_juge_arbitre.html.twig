@@ -1,0 +1,46 @@
+{# src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge_arbitre.html.twig #}
+
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/../Projet_Natation_synchronisee/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-pill.css">
+    <link rel="stylesheet" href="{{ asset('css/layout.css') }}" >
+{% endblock %}
+{% block title %}
+    Juge-arbitre
+{% endblock %}
+
+{% block body %}
+
+    <h1>Bienvenue, {{juge_arbitre.id}}</h1><br>
+
+    <a class="btn btn-primary btn-lg" href="../../nageuse">Liste des nageuses</a>
+    <br><br>
+    <input type="submit" class="btn btn-primary btn-lg" onclick="javascript:montre('information1');" value="Mes compétitions">
+    <dd id="information1">
+        <br>
+        <tr>
+            <a href="../../competition/arbitre/1">Compétition 1</a><br>
+            <a href="../../competition/arbitre/2">Compétition 2</a><br>
+        </tr>
+    </dd>
+    <br><br>
+
+<script language="JavaScript">
+
+    window.onload=montre();
+    function montre(id)
+    {
+    var d = document.getElementById(id);
+    for (var i = 1; i<=10; i++)
+    {
+    if (document.getElementById('information'+i)) {document.getElementById('information'+i).style.display='none';}
+    }
+    if (d) {d.style.display='block';}
+    }
+
+    </script>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Projet2\PlatformBundle\Entity\Nageuse" table="nageuse">
+    <id name="idnageuse" type="integer" column="idnageuse">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="nageuse_idnageuse_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="nomNageuse" type="string" column="nom_nageuse" length="45" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="prenomNageuse" type="string" column="prenom_nageuse" length="45" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="datedenaissance" type="date" column="datedenaissance" nullable="false"/>
+    <many-to-many field="idequipe" target-entity="Equipe" inversed-by="idnageuse" fetch="LAZY">
+      <join-table name="faitparti">
+        <join-columns>
+          <join-column name="idnageuse" referenced-column-name="idnageuse"/>
+        </join-columns>
+        <inverse-join-columns>
+          <join-column name="idequipe" referenced-column-name="idequipe"/>
+        </inverse-join-columns>
+      </join-table>
+    </many-to-many>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,29 @@
+{% extends "Projet2PlatformBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {# On charge le CSS de bootstrap depuis le site directement #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block title %}
+    Nageuses
+{% endblock %}
+
+{% block body %}
+    <h1>Liste des nageuses</h1><br>
+    <div>
+    <table class="table">
+    <thead>
+    <tr><th>ID</th><th style="text-align: center;">Nom</th><th style="text-align: center;">Prénom</th><th style="text-align: center;">Date de naissance</th></tr>
+    </thead>
+    {% for nageuse in listNageuse %}
+<tr>
+    <td>{{ nageuse.idNageuse }}</td>
+    <td>{{ nageuse.nomNageuse }}</td>
+    <td>{{ nageuse.prenomNageuse }}</td>
+    <td>{{ nageuse.dateDeNaissance|date("m/d/Y") }}</td>
+</tr>
+    {% endfor %}
+    </table>
+    </div>
+{% endblock %}

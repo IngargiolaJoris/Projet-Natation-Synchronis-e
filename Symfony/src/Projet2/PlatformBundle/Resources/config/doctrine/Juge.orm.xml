@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Projet2\PlatformBundle\Entity\Juge" table="juge">
+    <indexes>
+      <index name="IDX_30810A7784A67BCA" columns="idrole"/>
+      <index name="IDX_30810A77DBDD131C" columns="idutilisateur"/>
+    </indexes>
+    <id name="idjuge" type="integer" column="idjuge">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="juge_idjuge_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="nomJuge" type="string" column="nom_juge" length="45" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <many-to-one field="idrole" target-entity="Role" fetch="LAZY">
+      <join-columns>
+        <join-column name="idrole" referenced-column-name="idrole"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="idutilisateur" target-entity="Utilisateur" fetch="LAZY">
+      <join-columns>
+        <join-column name="idutilisateur" referenced-column-name="idutilisateur"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

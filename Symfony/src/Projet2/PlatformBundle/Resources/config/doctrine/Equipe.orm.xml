@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Projet2\PlatformBundle\Entity\Equipe" table="equipe">
+    <indexes>
+      <index name="IDX_2449BA156B21C9D2" columns="idclub"/>
+    </indexes>
+    <id name="idequipe" type="integer" column="idequipe">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="equipe_idequipe_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="nomEquipe" type="string" column="nom_equipe" length="45" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <many-to-one field="idclub" target-entity="Club" fetch="LAZY">
+      <join-columns>
+        <join-column name="idclub" referenced-column-name="idclub"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-many field="idnageuse" target-entity="Nageuse" mapped-by="idequipe" fetch="LAZY"/>
+  </entity>
+</doctrine-mapping>
