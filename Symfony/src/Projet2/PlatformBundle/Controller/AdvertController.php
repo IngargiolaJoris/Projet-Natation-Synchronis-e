@@ -122,22 +122,7 @@ class AdvertController extends Controller
       ));
 
   }
-
-  public function choixcompetitionAction($id, Request $request)
-  {
-        $session = $request->getSession();
-        $jugeArbitreId = $session->get('jugeArbitreId');
-
-
-        $competition = array(
-            'title'   => "Compétition-$id",
-            'id'      => $id
-        );
-        return $this->render('Projet2PlatformBundle:Advert:choixcompetition.html.twig', array(
-            'competitions' => $competition
-        ));
-  }
-
+  
   public function connection_juge_arbitreAction($id, Request $request)
   {
         $session = $request->getSession();
@@ -195,14 +180,38 @@ class AdvertController extends Controller
         return $this->render('Projet2PlatformBundle:Advert:resultats.html.twig');
   }
 
-  public  function competitionarbitreAction($id)
+
+  public function balletsAction($id, $id2)
   {
+      $competition = array(
+          'title'   => "Compétition-$id",
+          'id'      => $id
+      );
+      $ballet = array(
+          'title'   => "Ballet-$id2",
+          'id'      => $id2
+      );
+      return $this->render('Projet2PlatformBundle:Advert:ballets.html.twig', array(
+          'competitions' => $competition,
+          'ballet' => $ballet
+      ));
+  }
+
+    public function balletsarbitreAction($id, $id2, Request $request)
+    {
+        $session = $request->getSession();
+        $jugeArbitreId = $session->get('jugeArbitreId');
         $competition = array(
             'title'   => "Compétition-$id",
             'id'      => $id
         );
-        return $this->render('Projet2PlatformBundle:Advert:competitionarbitre.html.twig', array(
-            'competitions' => $competition
+        $ballet = array(
+            'title'   => "Ballet-$id2",
+            'id'      => $id2
+        );
+        return $this->render('Projet2PlatformBundle:Advert:balletsarbitre.html.twig', array(
+            'competitions' => $competition,
+            'ballet' => $ballet
         ));
-  }
+    }
 }

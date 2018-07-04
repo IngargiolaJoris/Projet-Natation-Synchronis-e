@@ -25,11 +25,6 @@ Projet2_platform_competitions:
     defaults:
         _controller: Projet2PlatformBundle:Advert:competition
 
-Projet2_platform_choixcompetition:
-    path:    /competitions/{id}
-    defaults:
-        _controller: Projet2PlatformBundle:Advert:choixcompetition
-
 Projet2_platform_juges:
     path:    /juges/
     defaults:
@@ -60,9 +55,15 @@ Projet2_platform_resultats:
     defaults:
         _controller: Projet2PlatformBundle:Advert:resultats
 
-Projet2_platform_competitionarbitre:
-    path:    competition/arbitre/{id}
+
+Projet2_platform_ballets:
+    path:    /competitions/{id}/ballets/{id2}
     defaults:
-        _controller: Projet2PlatformBundle:Advert:competitionarbitre
+        _controller: Projet2PlatformBundle:Advert:ballets
+
+Projet2_platform_balletsarbitre:
+    path:    juges/competitions/{id}/balletsarbitre/{id2}
+    defaults:
+        _controller: Projet2PlatformBundle:Advert:balletsarbitre
 
 
