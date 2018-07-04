@@ -1,1 +1,1 @@
-# Projet-Natation-Synchronis-e
+# Projet_Natation_Synchronisée
