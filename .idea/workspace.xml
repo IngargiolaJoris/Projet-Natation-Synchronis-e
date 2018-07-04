@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/choixcompetition.html.twig" description="    &lt;link rel=&quot;stylesheet&quot; href=&quot;/../Projet_Natati..." line="26" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50c75042-75df-40b7-87e8-fe96888c06e1" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Symfony/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AdvertController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Controller/AdvertController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/web/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Competition.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Competition.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3444">
+              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/app/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="competitionarbitre.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/competitionarbitre.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2877">
+              <caret line="137" column="25" lean-forward="false" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notation.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/notation.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection_juge_arbitre.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge_arbitre.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nageuse.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/nageuse.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="choixcompetition.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/choixcompetition.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$dateCompetit</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Ballet.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/NageuseRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/nageuses.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/BalletRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/ClubRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/CompetitionRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/DroitsRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/EquipeRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/JugeRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/NotationRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/OrganisateurRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/ParticipationRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/RoleRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/UtilisateurRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/nageuse.html.twig.html" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/competitions.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/fontawesome-stars.css" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/connection.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/juge_arbitre.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/web/layout.css" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/administration.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-square.css" />
+        <option value="$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-pill.css" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/juges.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Natation.php" />
+        <option value="$PROJECT_DIR$/Symfony/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/nageuse.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Nageuse.php" />
+        <option value="$PROJECT_DIR$/Symfony/app/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/index.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/function.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Participation.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Juge.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/choixcompetition.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Notation.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge_arbitre.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/notation.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/resultats.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-1to10.css" />
+        <option value="$PROJECT_DIR$/Symfony/web/js/js_chrono.js" />
+        <option value="$PROJECT_DIR$/Symfony/web/js/js_listcache.js" />
+        <option value="$PROJECT_DIR$/Symfony/web/js/js_penalite.js" />
+        <option value="$PROJECT_DIR$/Symfony/web/js/js_notation.js" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Competition.php" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Controller/AdvertController.php" />
+        <option value="$PROJECT_DIR$/Symfony/web/css/layout.css" />
+        <option value="$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/competitionarbitre.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/Symfony/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/composer" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/Symfony/vendor/incenteev/composer-parameter-handler" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="797" />
+    <option name="y" value="6" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Advert" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet_Natation_synchronisee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Natation_synchronisee" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Projet_Natation_synchronisee\Symfony\src\Projet2\PlatformBundle\Tests" />
+      <recent name="C:\wamp64\www\Projet_Natation_synchronisee\Symfony\src\Projet2\PlatformBundle\Resources\views\Advert" />
+      <recent name="C:\wamp64\www\Projet_Natation_synchronisee\Symfony\src\Projet2\PlatformBundle\Resources\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="jquery.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="jquery.js" working-dir="$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery/dist" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.jquery.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50c75042-75df-40b7-87e8-fe96888c06e1" name="Default" comment="" />
+      <created>1528180436737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528180436737</updated>
+      <workItem from="1528180445519" duration="12000000" />
+      <workItem from="1528352655955" duration="343000" />
+      <workItem from="1528439517511" duration="595000" />
+      <workItem from="1528870292997" duration="639000" />
+      <workItem from="1528975146869" duration="13086000" />
+      <workItem from="1529912597184" duration="14518000" />
+      <workItem from="1530087597214" duration="3310000" />
+      <workItem from="1530512532850" duration="11447000" />
+      <workItem from="1530598775162" duration="26769000" />
+      <workItem from="1530685135735" duration="4850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87557000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0077348067" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/projet-final/imports/ui/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projet-final/client/GrilleArts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/css/images/icon2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/css/images/icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-square.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-pill.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="80" column="27" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/administration.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Club.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Natation.php" />
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/NatationRepository.php" />
+    <entry file="file://$PROJECT_DIR$/Symfony/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Projet2PlatformBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/juges.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/CompetitionRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Repository/NageuseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Nageuse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="157" column="7" lean-forward="false" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/competitions.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Juge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2961">
+          <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Organisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Participation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2919">
+          <caret line="139" column="19" lean-forward="false" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/choixcompetitionarbitre.html.twig" />
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Notation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="533" column="16" lean-forward="false" selection-start-line="533" selection-start-column="16" selection-end-line="533" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/resultats.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/connection_juge_arbitre.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/notation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/jquery.barrating.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/assets/vendor/bower_components/jquery-bar-rating/dist/themes/bars-1to10.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/js/js_listcache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/js/js_penalite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/choixcompetition.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/js/js_notation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/js/js_chrono.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Tests/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <marker date="1530606108841" expanded="true" signature="801:912" ph="INSERT INTO notation... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/app/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/nageuse.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Entity/Competition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3444">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/web/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Controller/AdvertController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/src/Projet2/PlatformBundle/Resources/views/Advert/competitionarbitre.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2877">
+          <caret line="137" column="25" lean-forward="false" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
