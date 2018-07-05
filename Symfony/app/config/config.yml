@@ -37,8 +37,7 @@ framework:
 twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
-    globals:
-        webmaster : "%app_webmaster%"
+    
 
 # Doctrine Configuration
 doctrine:
@@ -70,3 +69,13 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+fos_user:
+    db_driver: orm #
+    firewall_name: main
+    user_class: Projet2\PlatformBundle\Entity\Utilisateur
+    service:
+        mailer: fos_user.mailer.twig_swift
+    from_email:
+        address: "test@gmail.com"
+        sender_name: "test"

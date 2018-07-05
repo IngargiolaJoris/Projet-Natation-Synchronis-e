@@ -122,7 +122,7 @@ class AdvertController extends Controller
       ));
 
   }
-  
+
   public function connection_juge_arbitreAction($id, Request $request)
   {
         $session = $request->getSession();

@@ -66,4 +66,7 @@ Projet2_platform_balletsarbitre:
     defaults:
         _controller: Projet2PlatformBundle:Advert:balletsarbitre
 
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
 
